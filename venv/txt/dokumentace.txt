@@ -1,0 +1,10 @@
+/chat metoda - get - vypíše celý chat
+
+/chat/<index> - get - vypíše zpravu daneho indexu
+
+/chat/<zprava> - post - postne zpravu
+
+/chat/<zprava> - put - putne zpravu
+
+/chat/<index> - delete - smaze zpravu daneho indexu
+

@@ -81,7 +81,10 @@ def chat_delete(index):
     else:
         return str(index) + " index je bud mimo rozsah a nebo je zaporny"
 
-
+@app.route('/doc', methods=['GET'])
+def doc_show():
+    towrite = open("dokumentace.html", "r",encoding="UTF-8")
+    return towrite
 
 
 if __name__ == '__main__':
